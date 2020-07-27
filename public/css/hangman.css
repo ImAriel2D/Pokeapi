@@ -1,0 +1,11 @@
+#final-message {
+    display: none;
+}
+
+#error {
+    color: red;
+}
+
+#play-again {
+    display: none
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/hangman.css">
+</head>
+<body>
+
+    <h1 id="pokemon-holder">...</h1>
+    <p><span>Lives: </span> <span id="lives">3</span></p>
+    <p><span>Guessed letters: </span> <span id="letters">...</span></p>
+    <p id="final-message">...</p>
+    <p id="error"></p>
+    
+    
+    <form action="">
+        <input id="guessInput" type="text" type="text" required autocomplete="off">
+        <button id="guessButton" type="submit">Guess</button>
+    </form>
+
+    <button id="play-again">Play again!</button>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/hangman.js"></script>
+</body>
+</html>

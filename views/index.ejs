@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+
+    <img class="pokemon-logo" src="/images/pokemon-logo.png" alt="">
+
+    <h1 class="search-for">Search for a Pokemon!</h1>
+
+    <form id="pokemonForm">
+        <input id="pokemonInput" type="text" placeholder="Pokemon name / Pokemon number" required>
+        <button id="submitBtn">Find</button>
+    </form>
+
+    <h1 class="loading">Loading...</h1>
+
+    <div id="found-pokemon">
+        <div>
+            <div>
+                <h1>Name</h1>
+                <p id="pokemonPlaceHolder"> </p>
+            </div>
+
+            <img id="pokemon-sprite" src="" alt="pokemon-sprite" />
+        </div>
+
+        <div class="stats-container">
+            <div class="pokemon-attribute">
+                <h1>Number</h1>
+                <p id="pokemon-id">???</p>
+            </div>
+
+            <div class="pokemon-attribute">
+                <h1>HP </h1>
+                <p id="pokemon-hp">???</p>
+            </div>
+
+            <div class="pokemon-attribute">
+                <h1>ATTACK </h1>
+                <p id="pokemon-attack">???</p>
+            </div>
+
+
+            <div class="pokemon-attribute">
+                <h1>DEFENSE </h1>
+                <p id="pokemon-defense">???</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="/hangman">Play hangman!</a>
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
